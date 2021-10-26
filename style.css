@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+h1 {
+  @apply font-bold text-4xl px-40 py-4 mx-auto max-w-max;
+  @apply rounded-md bg-gradient-to-l from-green-400 to-blue-300 text-white opacity-90;
+}
